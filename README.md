@@ -1,2 +1,2 @@
 "Sorting in java" 
-The main file has sample use of the package.
+The main.java file has sample use of the package.
