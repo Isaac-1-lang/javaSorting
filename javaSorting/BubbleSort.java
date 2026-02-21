@@ -1,10 +1,12 @@
 package javaSorting;
 public class BubbleSort {
+    // Function for swapping 2 number if they are in the wrong order.
     public static void swap(int[] A, int i, int j){
         int temp = A[i];
         A[i] = A[j];
         A[j] = temp;
     }
+    // Main bubble sort function to call swap function if the numbers in a wrong orderr
     public static void bubbleSort(int[] A){
         int n = A.length;
         boolean sorted = false;
