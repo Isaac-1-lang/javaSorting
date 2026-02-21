@@ -1,10 +1,12 @@
 package javaSorting;
 public class HeapSort {
+    // Function to swap the numbers if they are in the wrong order.
     public static void swap(int[] A, int i, int j){
         int temp = A[i];
         A[i] = A[j];
         A[j] = temp;
     }
+    // Main function to keep numbers in a heap format in order to sort it se heap sort
     public static void heapify(int[] A, int i, int heapSize){
         int L = i*2 + 1;
         int R = i*2 + 2;
